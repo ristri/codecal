@@ -1,0 +1,9 @@
+{
+  "name": "CodeCal",
+  "displayName": "CodeCal",
+  "version": "0.0.1",
+    "icon": "./src/images/logo-icon.png",
+    "android": {
+      "package": "com.theanondev.codecal"
+    }
+}
