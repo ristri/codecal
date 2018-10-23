@@ -157,5 +157,4 @@ const styles = {
     adView:{
         alignItems:'center'
     }
-      
   }
