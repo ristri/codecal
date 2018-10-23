@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
   ActivityIndicator,
 } from 'react-native';
+
 import axios from 'axios';
 import Cardholder from './Cardholder';
 import moment from 'moment';
@@ -115,7 +116,6 @@ export default class Main extends React.Component {
                 <Text style={styles.headingStyle}>CodeCal</Text>
               </View>
             </View>
-
             <View style={styles.viewStyle}>
               <Cardholder data={this.state.tempArray} />
             </View>
