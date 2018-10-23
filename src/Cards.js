@@ -8,8 +8,6 @@ import CardsStatus from './CardsStatus';
 export default class Cards extends React.Component {
     
     render(){
-        
-
        return( 
            <View style={styles.holder}>
                <View style={styles.imageContainer}><CardsImage email = {this.props.name.creator.email}/></View>
@@ -24,9 +22,7 @@ export default class Cards extends React.Component {
         </View>
      );
     }
-
 }
-
 
 const styles = StyleSheet.create({
     holder:{
